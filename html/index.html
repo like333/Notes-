@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Notes</title>
+    <link rel="stylesheet" href="../index.css">
+    <style>
+        body{
+            background: url(../bg.jpg);
+            background-size: contain;
+        }
+        .btnBox { text-align: center; margin-top: 40px;}
+        button { cursor: pointer;  width: 80px; outline: none; border-radius: 4px; transition: .3s; color: #fff;  padding: 6px 0; border:none; margin: 10px; box-shadow: 0 0 5px rgba(0,0,0,.4) }
+        #create { background-color: #40479D; }
+        #create:hover { background-color: #545DCC;  }
+        #create:active { background-color: #3B4294;  }
+        #clear { background-color: #D54D41; }
+        #clear:hover { background-color: #E75C4F; }
+        #clear:active { background-color: #C7473B;  }
+    </style>
+</head>
+
+<body>
+    <div class="btnBox">
+        <h2>Notes便签</h2>
+        <p>点击创建你的第一个便签吧O(∩_∩)O~~~</p>
+        <button id="create">创建</button>
+        <button id="clear">清除</button>
+    </div>
+    <script src="../index.js"></script>
+</body>
+
+</html>
