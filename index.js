@@ -174,6 +174,7 @@ app.store = {
                 store.remove(id)
             }
             var notes = document.querySelectorAll('.m-note')
+            console.log(notes)
             notes.forEach(function (elem) {
                 document.body.removeChild(elem)
             })
